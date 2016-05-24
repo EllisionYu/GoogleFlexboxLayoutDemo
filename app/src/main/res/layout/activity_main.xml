@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/flexbox_layout"
+    app:alignItems="baseline"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="item1"
+        />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="item2"
+        />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_purple"
+        android:text="item3"
+        />
+
+<!--    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#ff34aa"
+        android:text="item4"
+        />
+
+    <TextView
+        android:id="@+id/textview5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#334455"
+        android:text="item5"
+        />
+
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#994356"
+        android:text="item6"
+        />-->
+</com.google.android.flexbox.FlexboxLayout>
